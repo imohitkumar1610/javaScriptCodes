@@ -36,6 +36,7 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
 }
 .box{
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     height:5em ;
     width:7em;
     display: flex;
@@ -51,4 +52,15 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
 .btn{
     display: block;
     
+}
+.btn-save{
+    background: green;
+    height:3em ;
+    width:7em;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
 }
