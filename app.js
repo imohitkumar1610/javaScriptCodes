@@ -69,3 +69,11 @@ const btnSave = document.querySelector('.btn-save');
 
 //everytime you envoke the function lapcount got increased by 1
 
+//strings
+
+// let userName = "mohit";
+// let message = `you are doing good" but you can do better`;
+
+// console.log(userName+message);
+//string concatination
+
