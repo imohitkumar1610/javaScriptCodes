@@ -77,3 +77,70 @@ const btnSave = document.querySelector('.btn-save');
 // console.log(userName+message);
 //string concatination
 
+//sum function 
+// let a = prompt("give a number");
+ // number we tak ein inout is in the string format
+// a = Number.parseInt(a); 
+//converting string to integer
+// let b = prompt("git another number");
+// b = Number.parseInt(b);
+
+// function sum(x,y){
+//     let c = a+b;
+//     return c; 
+// }
+//another way of declaring a function called arrow function
+// const sum = (x,y) => {
+//     let c = a+b;
+//     return c; 
+// }
+// console.log(sum(a,b));
+// console.log(sum(a,b));
+
+
+// objects in javascript
+
+// const student = {
+//     "harry" : 54,
+//     "shubham": 65,
+//     "mohit": 99
+// }
+
+// console.log(student);
+
+// for(let i = 0; i<Object.keys(student).length;i++){
+//     console.log("the marks of "+ Object.keys(student)[i]+" are " + student[Object.keys(student)[i]]);
+// }
+// console.log(student[Object.keys(student)[2]])
+
+//using for-in loop
+
+// for (const key in student) {
+//         console.log("marks of "+key+" are "+student[key]);
+//     }
+
+//arrays in javascript
+const name = ["mohit","shubham",54,454,65,null];
+const name2 = [2,1,2,3,5]
+// for(let i = 0; i<name.length;i++){
+//     console.log(name[i]);
+// }
+// let newArray = name.concat(name2);
+// console.log(newArray);
+// newArray.concat("yes");
+//doenot work with array and string
+// console.log(newArray);
+
+//sort() function
+// this way you can arrange th enumbers in the accending or in the decending order
+//  const compare = (a,b) => {
+//     return a-b;
+//  }
+// name2.sort(compare);
+
+// console.log(name2);
+
+// splice() function in js 
+// const num = [1,2,3,4,5,6,7,8,9];
+//  num.splice(2,2,1222,1333,1444,1555);
+//  console.log(num)
